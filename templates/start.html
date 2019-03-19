@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>app</title>
+</head>
+<body>
+	<form id="form">
+		<input type="text" name="text" id="input_box"/>
+		<button type="submit">Start</button>
+	</form>
+	<button id="stop_button">Stop</button>
+	<button id="delete_button">Delete submissions</button>
+	<button id="pause_button">Pause</button>
+	<button id="resume_button">Resume</button>
+
+	<script src="{{ url_for('static', filename='request.js') }}" type="text/javascript"></script>
+</body>
+</html>
