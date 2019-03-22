@@ -1,6 +1,4 @@
-from flask import Flask, redirect, url_for, request, render_template
-import os, subprocess
-import json
+from flask import Flask, url_for, request, render_template
 from celery import Celery
 from tasks import append, delete, celery
 

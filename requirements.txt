@@ -1,0 +1,15 @@
+amqp==1.4.9
+anyjson==0.3.3
+billiard==3.3.0.23
+celery==3.1.24
+cffi==1.12.2
+Click==7.0
+Flask==1.0.2
+itsdangerous==1.1.0
+Jinja2==2.10
+kombu==3.0.37
+MarkupSafe==1.1.1
+pycparser==2.19
+pytz==2018.9
+vine==1.2.0
+Werkzeug==0.14.1
